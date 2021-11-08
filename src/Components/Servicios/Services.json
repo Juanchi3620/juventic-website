@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "imagen":"./Images/regalo-de-cumpleanos.png",
+        "titulo": "Celebración de Cumpleaños",
+        "descripcion": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime, odit, quasi repellat velit ex deserunt excepturi voluptatem et ullam vel sapiente molestiae, cumque deleniti delectus animi quae minus sunt iure?"
+    },
+    {
+        "id": 2,
+        "imagen":"./Images/aniversario.png",
+        "titulo": "Aniversarios",
+        "descripcion": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime, odit, quasi repellat velit ex deserunt excepturi voluptatem et ullam vel sapiente molestiae, cumque deleniti delectus animi quae minus sunt iure?"
+    },
+    {
+        "id": 3,
+        "imagen":"./Images/globo.png",
+        "titulo": "Fiestas Infantiles",
+        "descripcion": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime, odit, quasi repellat velit ex deserunt excepturi voluptatem et ullam vel sapiente molestiae, cumque deleniti delectus animi quae minus sunt iure?"
+    },
+    {
+        "id": 4,
+        "imagen":"./Images/propuesta.png",
+        "titulo": "Declaraciones o propuestas",
+        "descripcion": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime, odit, quasi repellat velit ex deserunt excepturi voluptatem et ullam vel sapiente molestiae, cumque deleniti delectus animi quae minus sunt iure?"
+    },
+    {
+        "id": 5,
+        "imagen":"./Images/despedida-de-soltera.png",
+        "titulo": "Despedidas",
+        "descripcion": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime, odit, quasi repellat velit ex deserunt excepturi voluptatem et ullam vel sapiente molestiae, cumque deleniti delectus animi quae minus sunt iure?"
+    },
+    {
+        "id": 6,
+        "imagen":"./Images/cocina.png",
+        "titulo": "Cena con amigos",
+        "descripcion": "Lorem, ipsum dolor sit amet consectetur adipisicing elit. Maxime, odit, quasi repellat velit ex deserunt excepturi voluptatem et ullam vel sapiente molestiae, cumque deleniti delectus animi quae minus sunt iure?"
+    }
+]

@@ -1,0 +1,38 @@
+
+.titulos {
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 3rem;
+
+}
+
+.titulos h1 {
+    color: rgb(104, 3, 3);
+    font-size: 4rem;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.titulos p {
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.Contenido {
+    padding: 3rem;
+}
+
+.Contenido h1 {
+
+    font-size: 1.5rem;
+    color: rgb(104, 3, 3);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.Contenido p {
+    text-align: justify;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.Imagen-servicio {
+    height: 100%
+}

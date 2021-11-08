@@ -1,0 +1,38 @@
+[
+  {
+    "id": 1,
+    "Imagen": "./Images/personal1@2x.png",
+    "Name": "Juan Manuel Gomez",
+    "Cargo": "Chef Ejecutivo"
+  },
+  {
+    "id": 2,
+    "Imagen": "./Images/personal2@2x.png",
+    "Name": "Ana Isabel Casallas",
+    "Cargo": "Chef Pastelera"
+  },
+  {
+    "id": 3,
+    "Imagen": "./Images/personal3@2x.png",
+    "Name": "María Paulina Veloza",
+    "Cargo": "Administradora"
+  },
+  {
+    "id": 4,
+    "Imagen": "./Images/Rausch.jpeg",
+    "Name": "Jorge Rausch",
+    "Cargo": "Chef auxiliar"
+  },
+  {
+    "id": 5,
+    "Imagen": "./Images/Jordy Cruz.jpeg",
+    "Name": "Jordy Cruz",
+    "Cargo": "Mesero"
+  },
+  {
+    "id": 6,
+    "Imagen": "./Images/ferranadriados.jpg",
+    "Name": "Ferran Adriá Acosta",
+    "Cargo": "Chef Estrella"
+  }
+]
