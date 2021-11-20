@@ -15,12 +15,12 @@ function Carrusel() {
           {/* The slideshow */}
           <div className="carousel-inner ">
             <div className="carousel-item active ">
-              <img className="rounded img-fluid  " src="./Images/foto1@2x.png" alt="Plato"/>
+              <img className="rounded img-fluid  " src="https://firebasestorage.googleapis.com/v0/b/imagenes-guardar.appspot.com/o/Restaurante%2Ffoto1%402x.png?alt=media&token=9a15b4fd-0f19-4053-89f5-d553e9f4ead5" alt="Plato"/>
               <div
                 className="icono_carousel"
                 style={{ height: 350, width: 350, margin: "auto" }}
               >
-                <img className="rounded img-fluid  " src="./Images/logo@2x.png" alt="Plato"/>
+                <img className="rounded img-fluid  " src="https://firebasestorage.googleapis.com/v0/b/imagenes-guardar.appspot.com/o/Restaurante%2Flogo%402x.png?alt=media&token=85aada55-01e5-48df-a634-e7b274f696df" alt="Plato"/>
               </div>
               <div className="titulo_carousel">
                 <h1 className="text-white">
@@ -33,12 +33,12 @@ function Carrusel() {
               </div>
             </div>
             <div className="carousel-item">
-              <img className="rounded img-fluid  " src="./Images/foto1@2x.png" alt="Plato"/>
+              <img className="rounded img-fluid  " src="https://firebasestorage.googleapis.com/v0/b/imagenes-guardar.appspot.com/o/Restaurante%2Ffoto1%402x.png?alt=media&token=9a15b4fd-0f19-4053-89f5-d553e9f4ead5" alt="Plato"/>
               <div
                 className="icono_carousel"
                 style={{ height: 350, width: 350, margin: "auto" }}
               >
-                <img className="rounded img-fluid  " src="./Images/logo@2x.png" alt="Plato"/>
+                <img className="rounded img-fluid  " src="https://firebasestorage.googleapis.com/v0/b/imagenes-guardar.appspot.com/o/Restaurante%2Flogo%402x.png?alt=media&token=85aada55-01e5-48df-a634-e7b274f696df" alt="Plato"/>
               </div>
               <div className="titulo_carousel">
                 <h1 className="text-white">
@@ -51,12 +51,12 @@ function Carrusel() {
               </div>
             </div>
             <div className="carousel-item">
-              <img className="rounded img-fluid  " src="./Images/foto1@2x.png" alt="Plato"/>
+              <img className="rounded img-fluid  " src="https://firebasestorage.googleapis.com/v0/b/imagenes-guardar.appspot.com/o/Restaurante%2Ffoto1%402x.png?alt=media&token=9a15b4fd-0f19-4053-89f5-d553e9f4ead5" alt="Plato"/>
               <div
                 className="icono_carousel"
                 style={{ height: 350, width: 350, margin: "auto" }}
               >
-                <img className="rounded img-fluid  " src="./Images/logo@2x.png" alt="Plato"/>
+                <img className="rounded img-fluid  " src="https://firebasestorage.googleapis.com/v0/b/imagenes-guardar.appspot.com/o/Restaurante%2Flogo%402x.png?alt=media&token=85aada55-01e5-48df-a634-e7b274f696df" alt="Plato"/>
               </div>
               <div className="titulo_carousel">
                 <h1 className="text-white">

@@ -10,24 +10,24 @@ const Recomendados = () => {
             <div className="row">
               <div className="col-6">
                 <img
-                  src="./Images/menu1@2x.png"
+                  src="https://firebasestorage.googleapis.com/v0/b/imagenes-guardar.appspot.com/o/Restaurante%2Fmenu1%402x.png?alt=media&token=41cbd626-0d81-4935-a1ad-071ba87da063"
                   className="w-100 shadow-1-strong rounded mb-4"
                   alt="Menu"
                 />
                 <img
-                  src="./Images/menu2@2x.png"
+                  src="https://firebasestorage.googleapis.com/v0/b/imagenes-guardar.appspot.com/o/Restaurante%2Fmenu2%402x.png?alt=media&token=f17bee62-276f-4644-97d0-0563f8a46ead"
                   className="w-100 shadow-1-strong rounded mb-4"
                   alt="Menu"
                 />
               </div>
               <div className="col-6">
                 <img
-                  src="./Images/menu3@2x.png"
+                  src="https://firebasestorage.googleapis.com/v0/b/imagenes-guardar.appspot.com/o/Restaurante%2Fmenu3%402x.png?alt=media&token=e9356534-a3c2-4a4b-ad08-23b2c0964ad1"
                   className="w-100 shadow-1-strong rounded mb-4"
                   alt="Menu"
                 />
                 <img
-                  src="./Images/menu4@2x.png"
+                  src="https://firebasestorage.googleapis.com/v0/b/imagenes-guardar.appspot.com/o/Restaurante%2Fmenu4%402x.png?alt=media&token=d74c6bba-35ec-48a4-84d0-2c11920ab77f"
                   className="w-100 shadow-1-strong rounded mb-4"
                   alt="Menu"
                 />
@@ -35,11 +35,7 @@ const Recomendados = () => {
             </div>
             <div>
               <div className="btn_enviar">
-                <a
-                  type="button"
-                  className="btn naranja w-50 text-white"
-                  href="menua copy.html"
-                >
+                <a type="button" className="btn naranja w-50 text-white" href="/Menu" style={{fontSize:"1.5rem"}}>
                   Consulta el menu
                 </a>
               </div>
@@ -47,7 +43,7 @@ const Recomendados = () => {
           </div>
           <div className="container col p-3">
             <div className="container row">
-              <img src="./Images/menu@2x.png" className="rounded w-100 " alt="Menu"/>
+              <img src="https://firebasestorage.googleapis.com/v0/b/imagenes-guardar.appspot.com/o/Restaurante%2Fmenu%402x.png?alt=media&token=b27dda71-26d6-4573-bffc-bca710074ee0" className="rounded w-100 " alt="Menu"/>
             </div>
           </div>
         </div>

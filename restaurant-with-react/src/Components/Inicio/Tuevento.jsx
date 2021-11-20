@@ -4,7 +4,7 @@ const Tuevento = () => {
   return (
     <>
       <div className="contenedor ">
-        <img src="./Images/foto3@2x.png" className="rounded w-100 " alt="Organizamos"/>
+        <img src="https://firebasestorage.googleapis.com/v0/b/imagenes-guardar.appspot.com/o/Restaurante%2Ffoto3%402x.png?alt=media&token=411baf9f-2ade-4a47-893d-7cfff26901ae" className="rounded w-100 " alt="Organizamos"/>
         <div>
           <h1 className="titulo_img w-100 text-white" style={{ left: "30%" }}>
             Organizamos tu evento
@@ -20,7 +20,7 @@ const Tuevento = () => {
                 margin: "auto",
               }}
             >
-              <img src="./Images/icono1@2x.png" className="rounded w-100 h-100 " alt="Organizamos"/>
+              <img src="https://firebasestorage.googleapis.com/v0/b/imagenes-guardar.appspot.com/o/Restaurante%2Ficono1%402x.png?alt=media&token=3b19f8e9-f396-48af-8ba0-34dcb66e90ac" className="rounded w-100 h-100 " alt="Organizamos"/>
             </div>
             <div>
               <h3 className="text-white">Fiestas tematicas</h3>
@@ -44,7 +44,7 @@ const Tuevento = () => {
                 margin: "auto",
               }}
             >
-              <img src="./Images/icono2@2x.png" className="rounded w-100 h-100 " alt="Organizamos"/>
+              <img src="https://firebasestorage.googleapis.com/v0/b/imagenes-guardar.appspot.com/o/Restaurante%2Ficono2%402x.png?alt=media&token=17015981-92ff-4833-9550-5a707a9433e6" className="rounded w-100 h-100 " alt="Organizamos"/>
             </div>
             <div>
               <h3 className="text-white">Fiestas tematicas</h3>
@@ -68,7 +68,7 @@ const Tuevento = () => {
                 margin: "auto",
               }}
             >
-              <img src="./Images/icono3@2x.png" className="rounded w-100 h-100 " alt="Organizamos"/>
+              <img src="https://firebasestorage.googleapis.com/v0/b/imagenes-guardar.appspot.com/o/Restaurante%2Ficono3%402x.png?alt=media&token=5e8f403b-51be-4b24-b0d4-3b63eaf98a15" className="rounded w-100 h-100 " alt="Organizamos"/>
             </div>
             <div>
               <h3 className="text-white">Fiestas tematicas</h3>
@@ -92,7 +92,7 @@ const Tuevento = () => {
                 margin: "auto",
               }}
             >
-              <img src="./Images/icono4@2x.png" className="rounded w-100 h-100 " alt="Organizamos"/>
+              <img src="https://firebasestorage.googleapis.com/v0/b/imagenes-guardar.appspot.com/o/Restaurante%2Ficono4%402x.png?alt=media&token=b9957624-abfc-4093-91b9-1a34bf580e20" className="rounded w-100 h-100 " alt="Organizamos"/>
             </div>
             <div>
               <h3 className="text-white">Fiestas tematicas</h3>

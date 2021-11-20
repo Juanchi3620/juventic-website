@@ -7,7 +7,7 @@ export default class Footer extends Component {
         <div className="container ">
           <div className="row">
             <div className="col-sm-3">
-              <img src="./Images/logo@2x.png" className="rounded h-100 w-100" alt="Este es el logo"/>
+              <img src="https://firebasestorage.googleapis.com/v0/b/imagenes-guardar.appspot.com/o/Restaurante%2Flogo%402x.png?alt=media&token=85aada55-01e5-48df-a634-e7b274f696df" className="rounded h-100 w-100" alt="Este es el logo"/>
             </div>
             <div className="container col-sm-4 ">
               <a

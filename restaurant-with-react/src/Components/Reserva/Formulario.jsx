@@ -57,7 +57,7 @@ const Formulario = () => {
 
       }
       >
-        <div className="form-group  ">
+        <div className="form-group">
           <select
             className="form-control"
             name="servicio"
@@ -66,6 +66,7 @@ const Formulario = () => {
             onChange={handleChange}
             defaultValue=""
             value={form.servicio}
+            style={{fontSize:"2rem"}}
           >
             <option>Seleccionar el servicio</option>
             <option>Celebración de Cumpleaños</option>
@@ -84,6 +85,7 @@ const Formulario = () => {
             id="nombres"
             value={form.nombres}
             placeholder="Nombre completo"
+            style={{fontSize:"2rem"}}
             onChange={handleChange}
             required
           />
@@ -97,6 +99,7 @@ const Formulario = () => {
             value={form.telefono}
             placeholder="Telefono y/o celular"
             onChange={handleChange}
+            style={{fontSize:"2rem"}}
           />
         </div>
         <div className="form-group">
@@ -108,6 +111,7 @@ const Formulario = () => {
             value={form.email}
             placeholder="Correo electrónico"
             onChange={handleChange}
+            style={{fontSize:"2rem"}}
           />
         </div>
         <div className="form-group">
@@ -117,6 +121,7 @@ const Formulario = () => {
             name="fecha"
             value={form.fecha}
             onChange={handleChange}
+            style={{fontSize:"2rem"}}
           />
         </div>
 
@@ -130,6 +135,7 @@ const Formulario = () => {
             className="form-control"
             placeholder="Número de Personas"
             onChange={handleChange}
+            style={{fontSize:"2rem"}}
           />
         </div>
         <div>
@@ -142,6 +148,7 @@ const Formulario = () => {
             defaultValue={"Sin palabras"}
             value={form.observacion}
             onChange={handleChange}
+            style={{fontSize:"2rem"}}
           />
         </div>
         <div className="form-check">
@@ -153,6 +160,7 @@ const Formulario = () => {
               name="terminos"
               value={form.terminos}
               onChange={handleChecked}
+              style={{fontSize:"2rem"}}
             />
             Acepto terminos y condiciones
           </label>
@@ -162,6 +170,7 @@ const Formulario = () => {
             id="submit-reservas"
             type="submit"
             className="btn naranja w-50 text-white"
+            style={{fontSize:"1.5rem"}}
           >
             ENVIAR
           </button>

@@ -1,13 +1,13 @@
 import React, { useState } from 'react'; 
 import styled from 'styled-components';
 import Modal from './modal';
-import menu1 from '../../images/menu1.webp';
-import menu2 from '../../images/menu2.webp';
-import menu3 from '../../images/menu3.webp';
-import menu4 from '../../images/menu4.webp';
-import menu5 from '../../images/menu5.webp';
-import menu6 from '../../images/menu6.webp';
-import portada from '../../images/portada.jpg';
+/* import menu1 from 'https://firebasestorage.googleapis.com/v0/b/imagenes-guardar.appspot.com/o/Restaurante%2Fmenu1.webp?alt=media&token=034ca47f-8ea9-47af-b31a-6ef3b4a46a4c';
+import menu2 from 'https://firebasestorage.googleapis.com/v0/b/imagenes-guardar.appspot.com/o/Restaurante%2Fmenu2.webp?alt=media&token=775ec7c1-7d34-4f7d-b137-7db334100a29';
+import menu3 from 'https://firebasestorage.googleapis.com/v0/b/imagenes-guardar.appspot.com/o/Restaurante%2Fmenu3.webp?alt=media&token=258bd9f3-e9bf-44f9-9066-84847976e32e';
+import menu4 from 'https://firebasestorage.googleapis.com/v0/b/imagenes-guardar.appspot.com/o/Restaurante%2Fmenu4.webp?alt=media&token=40668d0e-ba71-40b7-8842-fa65c38d6758';
+import menu5 from 'https://firebasestorage.googleapis.com/v0/b/imagenes-guardar.appspot.com/o/Restaurante%2Fmenu5.webp?alt=media&token=deb807d1-7896-4dde-b002-066ab9ed9c46';
+import menu6 from 'https://firebasestorage.googleapis.com/v0/b/imagenes-guardar.appspot.com/o/Restaurante%2Fmenu6.webp?alt=media&token=f26a9f82-50a2-4507-97d2-e5ae50da029b';
+import portada from 'https://firebasestorage.googleapis.com/v0/b/imagenes-guardar.appspot.com/o/Restaurante%2Fportada.jpg?alt=media&token=3d17f071-b2c9-4dbd-be39-28158fb160a4'; */
 //import '../node_modules/bootstrap/dist/css/bootstrap.min.css'
 
 const App = () => {
@@ -39,12 +39,12 @@ const App = () => {
                             de tradición, dando un motivo más para reunirte y comer en familia, donde apenas
                             veas que se acercan los platos a la mesa “se te hará agua la boca”.</em></p>
 				</div>
-					<img src={portada}></img>
+					<img src="https://firebasestorage.googleapis.com/v0/b/imagenes-guardar.appspot.com/o/Restaurante%2Fportada.jpg?alt=media&token=3d17f071-b2c9-4dbd-be39-28158fb160a4" alt="plato"></img>
 			</ContenedorPortada>
 
 			<ContenedorBotones>
 				<div className="cuadro">
-				<Boton onClick={() => cambiarEstadoModal1(!estadoModal1)}><img src={menu1}></img>
+				<Boton onClick={() => cambiarEstadoModal1(!estadoModal1)}><img src="https://firebasestorage.googleapis.com/v0/b/imagenes-guardar.appspot.com/o/Restaurante%2Fmenu1.webp?alt=media&token=034ca47f-8ea9-47af-b31a-6ef3b4a46a4c" alt="plato"></img>
 
 				<h4>Chuzos</h4>
 				<p>Región Amazónica</p>
@@ -70,7 +70,7 @@ const App = () => {
 				</div>
 
 				<div className="cuadro">
-				<Boton onClick={() => cambiarEstadoModal2(!estadoModal2)}><img src={menu2}></img>
+				<Boton onClick={() => cambiarEstadoModal2(!estadoModal2)}><img src="https://firebasestorage.googleapis.com/v0/b/imagenes-guardar.appspot.com/o/Restaurante%2Fmenu2.webp?alt=media&token=775ec7c1-7d34-4f7d-b137-7db334100a29" alt="plato"></img>
 
 				<h4>Pollo</h4>
 				<p>Región Amazónica</p>
@@ -96,7 +96,7 @@ const App = () => {
 				</div>
 
 				<div className="cuadro">
-				<Boton onClick={() => cambiarEstadoModal3(!estadoModal3)}><img src={menu3}></img>
+				<Boton onClick={() => cambiarEstadoModal3(!estadoModal3)}><img src="https://firebasestorage.googleapis.com/v0/b/imagenes-guardar.appspot.com/o/Restaurante%2Fmenu3.webp?alt=media&token=258bd9f3-e9bf-44f9-9066-84847976e32e" alt="plato"></img>
 
 				<h4>Sopa</h4>
 				<p>Región Amazónica</p>
@@ -122,7 +122,7 @@ const App = () => {
 				</div>
 
 				<div className="cuadro">
-				<Boton onClick={() => cambiarEstadoModal4(!estadoModal4)}><img src={menu4}></img>
+				<Boton onClick={() => cambiarEstadoModal4(!estadoModal4)}><img src="https://firebasestorage.googleapis.com/v0/b/imagenes-guardar.appspot.com/o/Restaurante%2Fmenu4.webp?alt=media&token=40668d0e-ba71-40b7-8842-fa65c38d6758" alt="plato"></img>
 
 				<h4>Buñuelos</h4>
 				<p>Región Amazónica</p>
@@ -148,7 +148,7 @@ const App = () => {
 				</div>
 
 				<div className="cuadro">
-				<Boton onClick={() => cambiarEstadoModal5(!estadoModal5)}><img src={menu5}></img>
+				<Boton onClick={() => cambiarEstadoModal5(!estadoModal5)}><img src="https://firebasestorage.googleapis.com/v0/b/imagenes-guardar.appspot.com/o/Restaurante%2Fmenu5.webp?alt=media&token=deb807d1-7896-4dde-b002-066ab9ed9c46" alt="plato"></img>
 
 				<h4>Especial</h4>
 				<p>Región Amazónica</p>
@@ -174,7 +174,7 @@ const App = () => {
 				</div>
 
 				<div className="cuadro">
-				<Boton onClick={() => cambiarEstadoModal6(!estadoModal6)}><img src={menu6}></img>
+				<Boton onClick={() => cambiarEstadoModal6(!estadoModal6)}><img src="https://firebasestorage.googleapis.com/v0/b/imagenes-guardar.appspot.com/o/Restaurante%2Fmenu6.webp?alt=media&token=f26a9f82-50a2-4507-97d2-e5ae50da029b" alt="plato"></img>
 
 				<h4>Camaron</h4>
 				<p>Región Amazónica</p>
@@ -214,7 +214,7 @@ const App = () => {
 
 				<Contenido>
 				<h1>Lorem ipsum dolor.</h1>
-				<img src={menu1}></img>
+				<img src="https://firebasestorage.googleapis.com/v0/b/imagenes-guardar.appspot.com/o/Restaurante%2Fmenu1.webp?alt=media&token=034ca47f-8ea9-47af-b31a-6ef3b4a46a4c" alt="plato"></img>
 				<p>ui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt, ut labore et dolore magnam aliquam quaerat voluptatem.</p>
 				</Contenido>
 			</Modal>
@@ -232,7 +232,7 @@ const App = () => {
 
 				<Contenido>
 				<h1>Lorem ipsum dolor.</h1>
-				<img src={menu2}></img>
+				<img src="https://firebasestorage.googleapis.com/v0/b/imagenes-guardar.appspot.com/o/Restaurante%2Fmenu2.webp?alt=media&token=775ec7c1-7d34-4f7d-b137-7db334100a29" alt="plato"></img>
 				<p>ui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt, ut labore et dolore magnam aliquam quaerat voluptatem.</p>
 				</Contenido>
 			</Modal>
@@ -250,7 +250,7 @@ const App = () => {
 
 				<Contenido>
 				<h1>Lorem ipsum dolor.</h1>
-				<img src={menu3}></img>
+				<img src="https://firebasestorage.googleapis.com/v0/b/imagenes-guardar.appspot.com/o/Restaurante%2Fmenu3.webp?alt=media&token=258bd9f3-e9bf-44f9-9066-84847976e32e" alt="plato"></img>
 				<p>ui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt, ut labore et dolore magnam aliquam quaerat voluptatem.</p>
 				</Contenido>
 			</Modal>
@@ -268,7 +268,7 @@ const App = () => {
 
 				<Contenido>
 				<h1>Lorem ipsum dolor.</h1>
-				<img src={menu4}></img>
+				<img src="https://firebasestorage.googleapis.com/v0/b/imagenes-guardar.appspot.com/o/Restaurante%2Fmenu4.webp?alt=media&token=40668d0e-ba71-40b7-8842-fa65c38d6758" alt="plato"></img>
 				<p>ui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt, ut labore et dolore magnam aliquam quaerat voluptatem.</p>
 				</Contenido>
 			</Modal>
@@ -286,7 +286,7 @@ const App = () => {
 
 				<Contenido>
 				<h1>Lorem ipsum dolor.</h1>
-				<img src={menu5}></img>
+				<img src="https://firebasestorage.googleapis.com/v0/b/imagenes-guardar.appspot.com/o/Restaurante%2Fmenu5.webp?alt=media&token=deb807d1-7896-4dde-b002-066ab9ed9c46" alt="plato"></img>
 				<p>ui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt, ut labore et dolore magnam aliquam quaerat voluptatem.</p>
 				</Contenido>
 			</Modal>
@@ -304,7 +304,7 @@ const App = () => {
 
 				<Contenido>
 				<h1>Lorem ipsum dolor.</h1>
-				<img src={menu6}></img>
+				<img src="https://firebasestorage.googleapis.com/v0/b/imagenes-guardar.appspot.com/o/Restaurante%2Fmenu6.webp?alt=media&token=f26a9f82-50a2-4507-97d2-e5ae50da029b" alt="plato"></img>
 				<p>ui dolorem ipsum, quia dolor sit amet consectetur adipisci velit, sed quia non numquam eius modi tempora incidunt, ut labore et dolore magnam aliquam quaerat voluptatem.</p>
 				</Contenido>
 			</Modal>

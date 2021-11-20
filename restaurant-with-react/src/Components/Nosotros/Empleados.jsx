@@ -10,8 +10,8 @@ export const Empleados = () => {
               return (
                 <div key={index} className="Trabajador d-flex flex-column col-lg-4 col-md-12 col-sm-12">
                   <img className="mx-auto" src={trabajador.Imagen} alt="Empleado tal"></img>
-                  <h3 className="mx-auto">{trabajador.Name}</h3>
-                  <h6 className="mx-auto">{trabajador.Cargo}</h6>
+                  <h3 className="mx-auto" style={{fontSize:"1.5rem"}}><b>{trabajador.Name}</b></h3>
+                  <h6 className="mx-auto" style={{fontSize:"1.5rem"}}><i>{trabajador.Cargo}</i></h6>
                 </div>
               );
             })}

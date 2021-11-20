@@ -1,37 +1,37 @@
 [
   {
     "id": 1,
-    "Imagen": "./Images/personal1@2x.png",
+    "Imagen": "https://firebasestorage.googleapis.com/v0/b/imagenes-guardar.appspot.com/o/Restaurante%2Fpersonal1%402x.png?alt=media&token=871095bd-d0ac-43a4-a501-f166868ba6b4",
     "Name": "Juan Manuel Gomez",
     "Cargo": "Chef Ejecutivo"
   },
   {
     "id": 2,
-    "Imagen": "./Images/personal2@2x.png",
+    "Imagen": "https://firebasestorage.googleapis.com/v0/b/imagenes-guardar.appspot.com/o/Restaurante%2Fpersonal2%402x.png?alt=media&token=f3197cc2-2fb0-40d6-b7ea-39a1b90ba07d",
     "Name": "Ana Isabel Casallas",
     "Cargo": "Chef Pastelera"
   },
   {
     "id": 3,
-    "Imagen": "./Images/personal3@2x.png",
+    "Imagen": "https://firebasestorage.googleapis.com/v0/b/imagenes-guardar.appspot.com/o/Restaurante%2Fpersonal3%402x.png?alt=media&token=07784a52-3da0-49b0-ab1b-c8313bc514cd",
     "Name": "María Paulina Veloza",
     "Cargo": "Administradora"
   },
   {
     "id": 4,
-    "Imagen": "./Images/Rausch.jpeg",
+    "Imagen": "https://firebasestorage.googleapis.com/v0/b/imagenes-guardar.appspot.com/o/Restaurante%2FRausch.jpeg?alt=media&token=2d917de5-b168-403e-ba22-c3ff5277706c",
     "Name": "Jorge Rausch",
     "Cargo": "Chef auxiliar"
   },
   {
     "id": 5,
-    "Imagen": "./Images/Jordy Cruz.jpeg",
+    "Imagen": "https://firebasestorage.googleapis.com/v0/b/imagenes-guardar.appspot.com/o/Restaurante%2FJordy%20Cruz.jpeg?alt=media&token=1a276bb2-3ce3-40c6-a67e-b5cc9d037e9b",
     "Name": "Jordy Cruz",
     "Cargo": "Mesero"
   },
   {
     "id": 6,
-    "Imagen": "./Images/ferranadriados.jpg",
+    "Imagen": "https://firebasestorage.googleapis.com/v0/b/imagenes-guardar.appspot.com/o/Restaurante%2Fferranadriados.jpg?alt=media&token=dd1abb80-3c2b-4c80-83da-263bd2d1e544",
     "Name": "Ferran Adriá Acosta",
     "Cargo": "Chef Estrella"
   }

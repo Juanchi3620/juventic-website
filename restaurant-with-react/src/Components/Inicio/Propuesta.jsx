@@ -4,7 +4,7 @@ const Propuesta = () => {
   return (
     <>
       <div className="contenedor ">
-        <img src="./Images/foto2@2x.png" className="rounded w-100 img-fluid " alt="Imagen 1"/>
+        <img src="https://firebasestorage.googleapis.com/v0/b/imagenes-guardar.appspot.com/o/Restaurante%2Ffoto2%402x.png?alt=media&token=fcfd2f6a-c473-46b5-bbe1-69a4375d8a1b" className="rounded w-100 img-fluid " alt="Imagen 1"/>
         <div>
           <h1 className="titulo_img text-white ">Nuestra propuesta</h1>
           <p className="text-justify text-white text_img">

@@ -22,25 +22,24 @@ class Testimonios extends Component {
                 <div className="col-sm col-sm-3">
                   <img
                     className="Testimonio-img"
-                    src="./Images/testimonio1@2x.png"
+                    src="https://firebasestorage.googleapis.com/v0/b/imagenes-guardar.appspot.com/o/Restaurante%2Ftestimonio1%402x.png?alt=media&token=fb67c7c0-ad05-4c07-8898-e9af783bf57e"
                     alt="Testimonio 1"
                   />
                 </div>
                 <div className="col-sm col-sm-9">
-                  <h6>
-                    <span className="comillas">"</span>Lorem ipsum dolor sit
+                  <h6 style={{fontSize:"1.5rem"}}>
+                    <span className="comillas">"</span><i>Lorem ipsum dolor sit
                     amet consectetur adipisicing elit. Nesciunt numquam incidunt
                     rem porro. Esse aliquam numquam sit provident! Inventore
                     sapiente provident voluptate repellat facilis commodi at
-                    odio, consequatur quis aperiam?
+                    odio, consequatur quis aperiam?</i>
                     <span className="comillas">"</span>
                   </h6>
                 </div>
               </div>
               <div className="fila row">
-                <div className="col-sm" />
                 <div className="Nombre-Testimonio col-sm">
-                  <h4>Francisco Mejia</h4>
+                  <h4><b>Francisco Mejia</b></h4>
                 </div>
               </div>
             </div>
@@ -49,25 +48,24 @@ class Testimonios extends Component {
                 <div className="col-sm col-sm-3">
                   <img
                     className="Testimonio-img"
-                    src="./Images/Testimonio3.jpeg"
+                    src="https://firebasestorage.googleapis.com/v0/b/imagenes-guardar.appspot.com/o/Restaurante%2FTestimonio3.jpeg?alt=media&token=6b3e98ad-8674-4da4-8258-b4ee871de715"
                     alt="Testimonio 1"
                   />
                 </div>
                 <div className="col-sm col-sm-9">
-                  <h6>
-                    <span className="comillas">"</span>Lorem ipsum dolor sit,
+                  <h6 style={{fontSize:"1.5rem"}}>
+                    <span className="comillas">"</span><i>Lorem ipsum dolor sit,
                     amet consectetur adipisicing elit. Officiis voluptatibus
                     ipsum exercitationem velit fugit ea deleniti fuga mollitia.
                     Optio cum molestias delectus labore beatae consequatur odio
-                    veritatis nulla unde consectetur!
+                    veritatis nulla unde consectetur!</i>
                     <span className="comillas">"</span>
                   </h6>
                 </div>
               </div>
               <div className="fila row">
-                <div className="col-sm" />
                 <div className="Nombre-Testimonio col-sm">
-                  <h4>Sofia Maza</h4>
+                  <h4><b>Sofia Maza</b></h4>
                 </div>
               </div>
             </div>
@@ -76,25 +74,24 @@ class Testimonios extends Component {
                 <div className="col-sm col-sm-3">
                   <img
                     className="Testimonio-img"
-                    src="./Images/Testimonio2.jpeg"
+                    src="https://firebasestorage.googleapis.com/v0/b/imagenes-guardar.appspot.com/o/Restaurante%2FTestimonio2.jpeg?alt=media&token=85805456-639e-4bdf-9cb1-6772e0a81b61"
                     alt="Testimonio 1"
                   />
                 </div>
                 <div className="col-sm col-sm-9">
-                  <h6>
-                    <span className="comillas">"</span>Lorem ipsum dolor sit
+                  <h6 style={{fontSize:"1.5rem"}}>
+                    <span className="comillas">"</span><i>Lorem ipsum dolor sit
                     amet consectetur adipisicing elit. Quod delectus harum vero
                     mollitia, provident sit, deserunt fuga beatae fugiat
                     doloremque quidem ab nulla impedit natus expedita, aliquid
-                    cumque minima incidunt?
+                    cumque minima incidunt?</i>
                     <span className="comillas">"</span>
                   </h6>
                 </div>
               </div>
               <div className="fila row">
-                <div className="col-sm" />
                 <div className="Nombre-Testimonio col-sm">
-                  <h4>Long Xun</h4>
+                  <h4><b>Long Xun</b></h4>
                 </div>
               </div>
             </div>

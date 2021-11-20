@@ -27,8 +27,8 @@ export const TiposServices = () => {
                     ></img>
                   </div>
                   <div className="col-sm-6" style={{ marginTop: "2rem" }}>
-                    <h1 className="mx-auto">{servicio.titulo}</h1>
-                    <p className="mx-auto">{servicio.descripcion}</p>
+                    <h1 className="mx-auto" style={{ fontSize: "2rem" }}>{servicio.titulo}</h1>
+                    <p className="mx-auto"><i>{servicio.descripcion}</i></p>
                     <a type="button" className="btn btn-danger" href="/Reservas">
                       ¿PREGUNTAS? CONTACTANOS
                     </a>

@@ -5,7 +5,7 @@ export default function Navbar() {
     return (
         <>
             <div className="Navbar row" style={{width: "100%"}}>
-                <Link to="/" className="navbar-brand text-white col-3 ">Sal&amp;Salsa</Link>
+                <Link to="/" className="navbar-brand text-white col-3 " style={{fontSize:"1.9rem"}}>Sal&amp;Salsa</Link>
                 <Link to="/Nosotros" className="nav-link text-white ">NOSOTROS</Link>
                 <Link to="/Menu" className="nav-link text-white">El MENÚ</Link>
                 <Link to="/Servicios" className="nav-link text-white">SERVICIOS</Link>

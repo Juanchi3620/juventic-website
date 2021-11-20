@@ -6,7 +6,7 @@ export class Historia extends Component {
       <>
         <div className="Restaurante-Historia">
           <div className="Img-Historia">
-            <img src="./Images/foto4@2x.png" alt="Restaurante" />
+            <img src="https://firebasestorage.googleapis.com/v0/b/imagenes-guardar.appspot.com/o/Restaurante%2Ffoto4%402x.png?alt=media&token=b6eb7644-45ce-444a-88ac-389f98f19ebc" alt="Restaurante" />
           </div>
           <div className="Texto-historia">
             <h1>
