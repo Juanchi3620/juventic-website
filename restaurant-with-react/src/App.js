@@ -9,6 +9,7 @@ import Menu from './Components/Menu/Menu';
 import Login from './Components/auth/Login'
 import NuevaCuenta from './Components/auth/NuevaCuenta';
 import Carrito from './Components/Carrito/Carrito'
+import WantEdit from './Components/Administrador/WantEdit';
 
 function App() {
   return (
@@ -24,6 +25,7 @@ function App() {
           <Route exact path="/IniciarSesion" component= {Login} />
           <Route exact path="/nueva-cuenta" component= {NuevaCuenta} />
           <Route exact path="/Carrito" component= {Carrito} />
+          <Route exact path="/Editar" component= {WantEdit} />
         </Switch>
    
         </Layout>

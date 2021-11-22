@@ -10,7 +10,7 @@ class Layout extends Component {
                     <Header />
                     <br/>
                     <br/> 
-                    <div className="contenedor">
+                    <div className="contenido">
                         {this.props.children}
                     </div>
                     <Footer/>
