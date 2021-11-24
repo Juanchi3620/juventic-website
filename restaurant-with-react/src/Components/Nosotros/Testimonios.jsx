@@ -65,6 +65,7 @@ class Testimonios extends Component {
                 </div>
               </div>
               <div className="fila row">
+                <div className="col-sm"></div>
                 <div className="Nombre-Testimonio col-sm">
                   <h4><b>Sofia Maza</b></h4>
                 </div>
@@ -91,6 +92,7 @@ class Testimonios extends Component {
                 </div>
               </div>
               <div className="fila row">
+                <div className="col-sm"></div>
                 <div className="Nombre-Testimonio col-sm">
                   <h4><b>Long Xun</b></h4>
                 </div>
