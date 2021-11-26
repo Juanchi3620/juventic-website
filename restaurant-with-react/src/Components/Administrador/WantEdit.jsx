@@ -22,7 +22,7 @@ const WantEdit = () => {
           <Link to="/" class="btn btn-outline-light text-dark btn-sm" style={{fontSize:"2rem"}}>
             Platos del restaurante
           </Link>
-          <Link to="/" class="btn btn-outline-light text-dark btn-sm" style={{fontSize:"2rem"}}>
+          <Link to="/servicios/ver" class="btn btn-outline-light text-dark btn-sm" style={{fontSize:"2rem"}}>
             Servicios del restaurante
           </Link>
           <Link to="/" class="btn btn-outline-light text-dark btn-sm" style={{fontSize:"2rem"}} >

@@ -10,6 +10,9 @@ import Login from './Components/auth/Login'
 import NuevaCuenta from './Components/auth/NuevaCuenta';
 import Carrito from './Components/Carrito/Carrito'
 import WantEdit from './Components/Administrador/WantEdit';
+import EditarServicio from './Components/Administrador/Servicios/EditarServicio'
+import VerServicios from './Components/Administrador/Servicios/VerServicios';
+
 
 function App() {
   return (
@@ -26,6 +29,12 @@ function App() {
           <Route exact path="/nueva-cuenta" component= {NuevaCuenta} />
           <Route exact path="/Carrito" component= {Carrito} />
           <Route exact path="/Editar" component= {WantEdit} />
+          <Route path="/servicios/editar/:id">
+              <EditarServicio></EditarServicio>
+            </Route>
+            <Route path="/servicios/ver">
+              <VerServicios></VerServicios>
+            </Route>
         </Switch>
    
         </Layout>
