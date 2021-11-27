@@ -1,10 +1,43 @@
 import React, { Component } from "react";
+import Constantes from "../Servicios/Constantes";
+import { toast } from "react-toastify";
+import Swal from "sweetalert2";
 
 export class Historia extends Component {
+  constructor(props) {
+    super(props);
+    this.state = {
+      eliminado: false,
+    };
+  }
+
   render() {
+    if (this.state.eliminado) {
+      return null;
+    }
+
     return (
       <>
         <div className="Restaurante-Historia">
+          <div className="Img-Historia">
+            <img src={this.props.restaurante.imagen} alt="Restaurante" />
+          </div>
+          <div className="Texto-historia">
+            <h1>
+              Nuestra <br />
+              <span>Historia</span>
+            </h1>
+            <p>{this.props.restaurante.descripcion}</p>
+          </div>
+        </div>
+      </>
+    );
+  }
+}
+
+export default Historia;
+
+/* <div className="Restaurante-Historia">
           <div className="Img-Historia">
             <img src="https://firebasestorage.googleapis.com/v0/b/imagenes-guardar.appspot.com/o/Restaurante%2Ffoto4%402x.png?alt=media&token=b6eb7644-45ce-444a-88ac-389f98f19ebc" alt="Restaurante" />
           </div>
@@ -46,10 +79,4 @@ export class Historia extends Component {
               aliquam. Maecenas sodales velit ac congue convallis.
             </p>
           </div>
-        </div>
-      </>
-    );
-  }
-}
-
-export default Historia;
+        </div> */

@@ -13,6 +13,8 @@ import WantEdit from './Components/Administrador/WantEdit';
 import EditarServicio from './Components/Administrador/Servicios/EditarServicio'
 import VerServicios from './Components/Administrador/Servicios/VerServicios';
 import AgregarServicio from './Components/Administrador/Servicios/AgregarServicio';
+import EditarRestaurante from './Components/Administrador/Nosotros/EditarRestaurante';
+import VerRestaurante from './Components/Administrador/Nosotros/VerRestaurante';
 
 
 function App() {
@@ -38,6 +40,12 @@ function App() {
             </Route>
             <Route path="/servicios/agregar">
               <AgregarServicio></AgregarServicio>
+            </Route>
+            <Route path="/nosotros/editar/:id">
+              <EditarRestaurante></EditarRestaurante>
+            </Route>
+            <Route path="/nosotros/ver">
+              <VerRestaurante></VerRestaurante>
             </Route>
         </Switch>
    

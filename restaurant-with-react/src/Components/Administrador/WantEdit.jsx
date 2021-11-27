@@ -13,6 +13,9 @@ const WantEdit = () => {
         </div>
 
         <div className="container d-flex flex-column justify-content-center border border-danger shadow-sm p-3 mb-5 bg-white rounded">
+          <Link to="/nosotros/ver" class="btn btn-outline-light text-dark btn-sm" style={{fontSize:"2rem"}}>
+            Historia del restaurante
+          </Link>
           <Link to="/" class="btn btn-outline-light text-dark btn-sm" style={{fontSize:"2rem"}}>
             Personal del restaurante
           </Link>
