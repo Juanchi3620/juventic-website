@@ -12,6 +12,7 @@ import Carrito from './Components/Carrito/Carrito'
 import WantEdit from './Components/Administrador/WantEdit';
 import EditarServicio from './Components/Administrador/Servicios/EditarServicio'
 import VerServicios from './Components/Administrador/Servicios/VerServicios';
+import AgregarServicio from './Components/Administrador/Servicios/AgregarServicio';
 
 
 function App() {
@@ -34,6 +35,9 @@ function App() {
             </Route>
             <Route path="/servicios/ver">
               <VerServicios></VerServicios>
+            </Route>
+            <Route path="/servicios/agregar">
+              <AgregarServicio></AgregarServicio>
             </Route>
         </Switch>
    

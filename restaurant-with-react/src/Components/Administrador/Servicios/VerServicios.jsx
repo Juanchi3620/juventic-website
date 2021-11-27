@@ -3,6 +3,7 @@ import Constantes from "../../Servicios/Constantes";
 import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import TableServicios from './TableServicios';
+import { Link } from 'react-router-dom';
 class VerServicios extends React.Component {
     constructor(props) {
         super(props);
@@ -39,6 +40,9 @@ class VerServicios extends React.Component {
                             {this.state.servicios.map(servicio => {
                                 return <TableServicios key={servicio.id} servicio={servicio}></TableServicios>;
                             })}
+                            <div className="form-group">
+                                <Link to="/servicios/agregar" className="button is-primary mt-2">Agregar</Link>
+                            </div>
                         </tbody>
                     </table>
                 </div>
